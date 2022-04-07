@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Crud form</title>
+		<script src="scripts/edit.js" type="module"></script>
+		<link rel="stylesheet" href="styles/styles.css" />
+	</head>
+
+	<body>
+		<div class="home_button">
+			<button><a href="index.html">CRUD - FDND tribe API</a></button>
+		</div>
+
+		<section class="editForm">
+			<h1 id="editHeader">Edit member</h1>
+			<form action="">
+				<p class="submit-msg">Info has been updated!</p>
+				<label for="type">Type </label>
+				<select name="type" id="type">
+					<option value="student">Student</option>
+					<option value="teacher">Teacher</option>
+				</select>
+				<label for="nickname">Nickname </label>
+				<input type="text" id="nickname" />
+				<label for="name">Name </label>
+				<input type="text" id="name" />
+				<label for="prefix">Prefix</label>
+				<input type="text" id="prefix" />
+				<label for="surname">Surname</label>
+				<input type="text" id="surname" />
+				<label for="avatar">Avatar </label>
+				<input type="text" id="avatar" />
+				<label for="githubHandle">GithubHandle </label>
+				<input type="text" id="githubHandle" />
+				<label for="bio">Bio </label>
+				<textarea name="bio" id="bio"> </textarea>
+				<label for="url">Url </label>
+				<input type="text" id="url" />
+				<button type="submit" class="submit" id="submitBtn">Edit</button>
+			</form>
+		</section>
+	</body>
+</html>
