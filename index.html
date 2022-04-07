@@ -1,46 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Crud from FDND</title>
-		<link rel="stylesheet" href="styles/styles.css" />
-	</head>
-	<body>
-		<h1>FDND CRUD</h1>
-		<div>
-			<ul id="Fdnd_Students"> 
-            </ul>
-		</div>
-		<div id="student-info"> 
-        </div>
-        
-		<h2>Add a new student:</h2>
-		<form id="create-student">
-			<label>Name:</label>
-			<input type="text" name="name">
+  <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Crud Form</title>
+        <link rel="stylesheet" href="/styles/styles.css">
+        <script src="/scripts/index.js" type="module" defer></script>
+    </head>
+    
+    <body>
+    
+        <h1><a href="index.html">CRUD - FDND tribe API</a></h1>
+        <section class="crud_table">
+            <table>
+                <tr>
+                    <th class="tableHeader">ID</th>
+                    <th class="tableHeader">Naam</th>
+                    <th class="tableHeader">Github handle</th>
+                    <th class="tableHeader">Edit</th>
+                </tr>
+             
+    
+            </table>
+    
+        </section>
+    
+    </body>
+    
+    </html>
 
-			<label>Surname:</label>
-			<input type="text" name="surname">
-
-			<label>Nickname:</label>
-			<input type="text" name="nickname">
-
-			<label>Bio:</label>
-			<input type="text" name="nio">
-
-			<label>Avatar:</label>
-            <input type="text" name="avatar">
-
-			<label>Github:</label>
-            <input type="text" name="github">
-
-			<label>Url:</label>
-			<input type="text" name="image">
-
-			<input type="submit" name="submit" id="submit-new">
-		</form>
-		<script src="scripts/index.js"></script>
+   
+		<script src="scripts/index.js" type="module"></script>
 	</body>
 </html>
